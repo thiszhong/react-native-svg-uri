@@ -252,7 +252,11 @@ class SvgUri extends Component{
   inspectNode(node){
     // Only process accepted elements
     if (!ACCEPTED_SVG_ELEMENTS.includes(node.nodeName)) {
+<<<<<<< HEAD
       return (<View key={++ind} />);
+=======
+      return (<View key={ind++} />);
+>>>>>>> 5723587c32e802e0a0bc72deab3d673d29655512
     }
 
     // Process the xml node
